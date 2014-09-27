@@ -1,0 +1,16 @@
+<?php
+	// Incluir el archivo de datos de conexión
+	include_once("oracle_00datosConexion.php");
+
+	// Realizar la conexión de forma procedimental
+	$conexion = oci_connect(USER, PASSWORD, BD) or
+					die("Error al conectar");
+
+	echo "Conectado de forma procedimiental";
+
+	// Cerrar la conexión
+	oci_close($conexion);
+	echo "Conexión cerrada";
+
+
+?>
