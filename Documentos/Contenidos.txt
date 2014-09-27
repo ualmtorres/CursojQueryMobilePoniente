@@ -1,0 +1,18 @@
+PHP (4 horas)
+* Aspectos básicos de la programación en PHP
+* Programación orientada a objetos en PHP
+* Interacción con bases de datos en aplicaciones PHP
+
+Ajax (8 horas)
+* DOM (Document Object Model)
+* El objeto XMLHttpRequest
+* Técnicas básicas en Ajax
+* jQuery
+* Intercambio de datos XML y JSON
+* jQuery para el desarrollo de aplicaciones de Bases de datos
+
+jQuery Mobile (12 horas)
+* Elementos básicos en jQuery Mobile
+* Listas en jQuery Mobile
+* Formularios en jQuery Mobile
+* jQuery Mobile para el desarrollo de aplicaciones de Bases de datos
