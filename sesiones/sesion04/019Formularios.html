@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
+	<meta name="viewport"
+         content="width=device-width, initial-scale=1, user-scalable=no"/>
+</head>
+<body>
+
+<!-- Página -->
+<div id = "page1" data-role="page">
+
+	<!-- Cabecera -->
+	<div data-role="header" data-position = "fixed">
+  		<h1>Colapsables</h1>
+	</div>
+
+	<!-- Cuerpo -->
+	<div data-role = "content">
+		<h1>Paciente</h1>
+		￼<form action = "#" method="get" data-transition = "pop">
+  			<label for = "nombre">Nombre: </label>
+  			<input type="text" id = "nombre" required placeholder="Nombre del empleado">
+
+  			<label for = "sueldo">Sueldo: </label>
+			<input type="range" id = "sueldo" min="1000" max="4000" value = "1200" data-highlight = "true">
+
+			<label for = "edad">Libros</label>
+				<select id = "edad" name = "edad" data-native-menu = "false">
+  					<option value = "menores18">Menor de 18</option>
+  					<option value = "entre18y25">Entre 18 y 25</option>
+  					<option value = "mayorDe25">Mayor de 25</option>
+				</select>
+
+			<label for = "vacunado">Vacunado</label>
+				<select id = "vacunado" name = "vacunado" data-role = "slider">
+  					<option value = "si">Si</option>
+  					<option value = "no">No</option>
+				</select>
+
+			<label for = "sexo">Sexo</label>
+			<div data-role = "controlgroup">
+  				<label for = "opcionHombre">Hombre</label>
+  				<input type = "radio" id = "opcionHombre" name = "opcionSexo" value ="hombre">
+  				<label for = "opcionMujer">Mujer</label>
+  				<input type = "radio" id = "opcionMujer" name = "opcionSexo" value = "mujer">
+  			</div>
+
+  			<input type = "submit" value = "Entrar">
+  		</form>
+  	</div>
+
+	<!-- Pie -->
+	<div data-role="footer" data-position="fixed">
+		<h1>Pie</h1>
+	</div>
+</div>
+<!-- Fin página -->
+
+
+
+</body>
+</html>

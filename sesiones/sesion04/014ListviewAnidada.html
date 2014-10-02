@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
+	<meta name="viewport"
+         content="width=device-width, initial-scale=1, user-scalable=no"/>
+</head>
+<body>
+
+<!-- Página -->
+<div id = "page1" data-role="page">
+
+	<!-- Cabecera -->
+	<div data-role="header" data-position = "fixed">
+  		<h1>Colapsables</h1>
+	</div>
+
+	<!-- Cuerpo -->
+	<div data-role = "content">
+		<h1>Lista de libros</h1>
+		<ul data-role = "listview" data-inset = "true">
+			<li data-role = "list-divider">Primer grupo</li>
+    		<li>
+    			Master Mobile Web Apps with jQuery Mobile
+    			<ul data-role = "listview" data-inset = "true">
+					<li>Autor: Maximiliano Firtman</li>
+					<li>Fecha publicación: 2012</li>
+					<li>Páginas: 272</li>
+				</ul>
+    		</li>
+    		<li>
+    			jQuery Mobile: Up and Running
+    			Master Mobile Web Apps with jQuery Mobile
+    			<ul data-role = "listview" data-inset = "true">
+					<li>Autor: Juan Lopez</li>
+					<li>Fecha publicación: 2010</li>
+					<li>Páginas: 452</li>
+				</ul>    			
+    		</li>
+    		<li>
+    			jQuery Mobile
+    		</li>
+		</ul>
+	</div>
+
+	<!-- Pie -->
+	<div data-role="footer" data-position="fixed">
+		<h1>Pie</h1>
+	</div>
+</div>
+<!-- Fin página -->
+
+
+
+</body>
+</html>
