@@ -21,4 +21,5 @@ Básica: http://www.cheatography.com/danielschmitz/cheat-sheets/jquery-mobile/
 Extendida: http://brooky.cc/2011/04/23/jquery-mobile-cheat-sheet/
 
 <b>Tablas ordenables</b>
+http://blog.teamtreehouse.com/how-to-code-sortable-tabular-data-with-jquery
 http://codepen.io/jakestuts/details/tGpju
