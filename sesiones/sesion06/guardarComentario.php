@@ -46,6 +46,7 @@
                 mysqli_close($conexion);
             ?>
 
+            <a href = "descripcionVino.php?idVino=<?php echo $idVino; ?>" data-role = "button">Volver al vino</a>
 	</div>
 
 	<!-- Pie -->
