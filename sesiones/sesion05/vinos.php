@@ -1,13 +1,8 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8" />
-	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css" />
-	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-	<script src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
-	<meta name="viewport"
-         content="width=device-width, initial-scale=1, user-scalable=no"/>
-</head>
+    <?php
+        require_once("cabecera.php");
+    ?>
 <body>
 
 <!-- Página -->
@@ -25,7 +20,7 @@
 
                 $conexion = mysqli_connect(HOST, USER, PASS, BD) or die("Error al conectar");  
 
-                $cadenaSQL = "SELECT tipoVino, COUNT(*) AS cuenta FROM vinos GROUP BY tipoVino";
+                $cadenaSQL = "SELECT tipoVino, COUNT(*) AS cuenta FROM vinos GROUP BY tipoVino ORDER BY tipoVino";
 
                 $sentencia = mysqli_stmt_init($conexion);
                 mysqli_stmt_prepare($sentencia, $cadenaSQL);
