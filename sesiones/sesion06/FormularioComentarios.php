@@ -47,9 +47,22 @@
 
                 echo "<br/>";
 
-                
                 mysqli_close($conexion);
             ?>
+
+            <form method = "post" action = "guardarComentario.php">
+                <ul data-role = "listview" data-inset = "true">
+                    <li data-role = "list-divider">Deja tu opinión</li>
+                     <li>
+                        <label for = "valoracion">Valoración: </label>
+                        <input type="range" id = "valoracion" name = "valoracion" min="0" max="5" value = "0" data-highlight = "true">
+                    </li>
+                     <li><input type = "text" name = "comentario"></li>
+                </ul>
+                <a href = "descripcionVino.php?idVino=<?php echo $idVino; ?>" data-role = "button">Cancelar</a>
+                <input type = "submit" value = "Enviar" class = "ui-btn-active" data-theme = "b">
+            </form>
+
 	</div>
 
 	<!-- Pie -->
