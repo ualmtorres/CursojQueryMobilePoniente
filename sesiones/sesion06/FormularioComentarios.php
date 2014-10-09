@@ -54,6 +54,7 @@
                 <ul data-role = "listview" data-inset = "true">
                     <li data-role = "list-divider">Deja tu opinión</li>
                      <li>
+                        <input type = "hidden" name = "idVino" value = "<?php echo $idVino; ?>">
                         <label for = "valoracion">Valoración: </label>
                         <input type="range" id = "valoracion" name = "valoracion" min="0" max="5" value = "0" data-highlight = "true">
                     </li>
